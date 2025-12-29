@@ -11,12 +11,17 @@ import About from './pages/About';
 import Blog from './pages/Blog';
 import Error from './pages/Error';
 
+// Importation style global
+import GlobalStyle from './utils/style/globalstyle';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
+      <GlobalStyle />
       <Routes>
+
         <Route path="/" element={<App />} />
         <Route path="/home" element={<Home />} />
         <Route path="/a-propos" element={<About />} />
