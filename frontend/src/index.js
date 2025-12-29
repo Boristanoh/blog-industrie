@@ -12,7 +12,7 @@ import Blog from './pages/Blog';
 import Error from './pages/Error';
 
 // Importation style global
-import GlobalStyle from './utils/style/globalstyle';
+import GlobalStyle from './utils/style/GlobalStyle';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
