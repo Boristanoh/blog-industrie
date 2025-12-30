@@ -1,4 +1,4 @@
-function Contact() {
+function ContactForm() {
     return (
     <div>
         <p>Formualaire de contact</p>
@@ -7,4 +7,4 @@ function Contact() {
 }
 
 
-export default Contact
+export default ContactForm
