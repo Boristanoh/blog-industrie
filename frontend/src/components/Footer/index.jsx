@@ -2,7 +2,8 @@ import styled from "styled-components"
 import { Link } from "react-router-dom"
 
 const CardFooter = styled.footer`
-    background-color : #1A1A1A;
+    // background-color : #1A1A1A;
+    background-color : #FFF;
     padding: 4rem 1rem 1rem 1rem;
 `
 
@@ -40,7 +41,7 @@ function Footer() {
                 </div>
             </div>
         </div>
-        <hr className="border" />
+        <hr className="border border-dark"/>
 
         <div className="text-center" > <p>© 2025 GAD – Génie Alimentaire Durable. Tous droits réservés. <br /> Valoriser l'Afrique, nourrir demain.</p> </div>
           
