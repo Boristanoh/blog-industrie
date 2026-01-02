@@ -27,24 +27,35 @@ const GlobalStyle = createGlobalStyle`
   h1, h2, h3, h4, h5, h6 {
     font-family: ${fonts.title};
     color: ${colors.primary};
-    font-weight: 600;
+    font-weight: 900;
     line-height: 1.25;
   }
 
   h1 {
     font-size: 2.75rem; /* 44px */
+    color: ${colors.title};
   }
 
   h2 {
     font-size: 2rem; /* 32px */
+    color: ${colors.earthDark};
+    
+
   }
 
   h3 {
     font-size: 1.5rem; /* 24px */
+    color: ${colors.earthDark};
+  }
+
+   h4 {
+    font-size: 1.2rem; /* 24px */
+    color: ${colors.earthDark};
   }
 
   /* Paragraphes */
   p {
+  color: ${colors.textLight};
     margin-bottom: 1rem;
   }
 
@@ -64,11 +75,11 @@ const GlobalStyle = createGlobalStyle`
     padding-left: 1.2rem;
   }
 
-  /* Images */
-  img {
-    max-width: 100%;
-    display: block;
-  }
+  // /* Images */
+  // img {
+  //   max-width: 100%;
+  //   display: block;
+  // }
 
   /* Boutons */
   button {

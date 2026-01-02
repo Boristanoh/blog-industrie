@@ -17,7 +17,7 @@ const PublicLayout = () => {
   return (
     <>
       <Header/>
-      <main className="mt-4">
+      <main className="">
         <Outlet />
       </main>
       <Footer />

@@ -1,17 +1,31 @@
 const colors = {
   /* Couleurs principales */
-  primary: '#1F4D3A',        // Vert profond – durabilité & industrie
-  secondary: '#7A4A2E',      // Brun terre – transformation agroalimentaire
+  primary: "#52d411",
+    primaryLight: '#1F4D3A',        // Vert profond – durabilité & industrie
+  secondary: '#5d4037',      // Brun terre – transformation agroalimentaire
+
+    
+    accentGold: "#d4af37",
+    title: '#f9fcf8',
+                        
+                        
+                        
+  
 
   /* Fonds */
-  backgroundLight: '#F3EFE6', // Beige naturel – fond principal
-  backgroundWhite: '#FFFFFF',
+  backgroundLight: '#f9fcf8', // Beige naturel – fond principal
+  backgroundBeige: '#f5f3ef',
+  backgroundDark: "#162210",
+  earthDark: "#2c221b",
+  earthLight: "#8c7e72",
 
   /* Accent */
   accent: '#C9A24D',         // Or doux – valeur & qualité
 
   /* Texte */
-  textPrimary: '#2E2E2E',
+                        
+  textPrimary: '#121b0d',
+  textLight: "#5c6b53",
   textSecondary: '#555555',
 
   /* UI */

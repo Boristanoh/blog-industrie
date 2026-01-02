@@ -23,7 +23,7 @@ function Footer() {
             <div className="col-12 col-md-3 mb-3">
                 <h4>Navigation</h4>
                 <nav>
-                    <ul>
+                    <ul className="list-unstyled">
                         <li><Link to="/" >Accueil</Link></li>
                         <li><Link to="/a-propos" >A propos</Link></li>
                         <li><Link to="/blog" >Blog</Link></li>

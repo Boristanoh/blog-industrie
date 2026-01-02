@@ -1,1 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap');
+
+.earth{
+    background-color: #f8f4ec !important;
+                        /* "earth-light": "#8c7e72", ; */
+}
+
+.special {
+    color: #52d411;
+}
+
+
+/* Page à propos */
+.quote-mark {
+  font-size: 5rem;
+  color: #52d411;
+  padding: 0;
+  margin: 0;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.author .name {
+  color: #FAC638; /* vert */
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.author .line {
+  width: 40px;
+  height: 2px;
+  background-color: #52d411;
+}
+
+.mission-1{
+    border-top: solid 0.25rem #52d411;
+}
+
+.mission-2{
+    border-top: solid 0.25rem #FAC638;
+}
+
+.mission-3{
+    border-top: solid 0.25rem #1A1A1A;
+}
+
+.hero-card {
+  height: 70vh;
+  max-height: 590px;
+  overflow: hidden;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Overlay sombre pour la lisibilité */
+.hero-overlay {
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.55),
+    rgba(0, 0, 0, 0.2)
+  );
+}
+
+@media (max-width: 768px) {
+  .hero-overlay {
+    padding-left: 1.5rem !important;
+    text-align: center;
+  }
+}
