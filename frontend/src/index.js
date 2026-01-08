@@ -18,7 +18,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Blog from './pages/Blog';
 import Error from './pages/Error';
-
+import Contact from "./pages/Contact";
 // index.js ou App.js
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
@@ -41,6 +41,7 @@ root.render(
           <Route path="/home" element={<Home />} />
           <Route path="/a-propos" element={<About />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Error />} />
         </Route>
       </Routes>
@@ -53,3 +54,7 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+
+
